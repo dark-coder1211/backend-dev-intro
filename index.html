@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            
+        }
+        .card{
+            display: flex;
+            border: 2px solid greenyellow;
+            width:1000px;
+            padding: 12px;
+            margin:5px;
+            align-items: center;
+            justify-content: center;
+        }
+        .image img{
+            width:200px;
+        }
+        .image{
+            position: relative;
+        }
+        .text h1,p{
+            padding: 2px 1px;
+        }
+        .capsule{
+            position:absolute;
+            bottom: 4px;
+            right:0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.642);
+            color:white;
+            border:3px ;
+            border-radius: 3px;
+            font-size: 14px;
+            padding:4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                 <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
+                    alt="">
+                    <div class="capsule">31:06</div>
+            </div>
+            <div class="text">
+                <h1>INtrouction to backend</h1>
+                <p>Code with HArry . 720k views . 2 months ago</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
